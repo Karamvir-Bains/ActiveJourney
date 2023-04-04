@@ -39,7 +39,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 ## ERD
-![ActiveJourney ERD](/docs/erd-activejourney.png)
+![ActiveJourney ERD](./docs/erd-activejourney.png)
 
 ## Routes
 * /user                **Create**  (POST new account)
