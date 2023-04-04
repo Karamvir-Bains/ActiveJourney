@@ -9,12 +9,17 @@ export default function Login() {
         <title>User Login</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <main>
+      <main style={{
+          backgroundImage: `url(/pexels-simon-berger-1323550.jpg)`,
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover',
+          backgroundPosition: 'bottom'
+        }} className="bg-slate-100 relative mx-auto w-full max-w-200 overflow-auto {styles.main}">
         <h1 className="text-3xl font-bold">
           User Login
         </h1>
         <LoginForm />
-        <RegistrationForm />
+        {/* <RegistrationForm /> */}
       </main>
     </>
   )

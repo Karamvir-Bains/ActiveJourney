@@ -11,3 +11,12 @@ export default function handler(
 ) {
   res.status(200).json({ name: 'John Doe' })
 }
+
+model User {
+  id    Int     @id @default(autoincrement())
+  email String  @unique
+  first_name  String?
+  last_name  String?
+  password   String  @unique
+  // layout ? object type?
+}
