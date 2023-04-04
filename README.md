@@ -42,15 +42,16 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ![ActiveJourney ERD](/docs/erd-activejourney.png)
 
 ## Routes
-* /user (new account) **Create**
-* /user/day **Create** (new metric row)
-* /user/:id **Read** (Dashboard?)
-* /user/day/:id **Read + Update** (Updating state for day, pulling up journal form for day)
+* /user            **Create** (new account)
+* /user/day        **Create** (new metric row)
+* /user/:id        **Read** (Dashboard?)
+* /user/:id/       **Update** (widget order)
+* /user/day/:id    **Read + Update** (Change journal data and dash state)
 * /user/metric/:id **Read**
 
 
 ### Sprint 2
-* /user/metric (new widget) **Create**
-* /user/metric/:id **Read**
-* /user/:id **Destroy**
-* /user/metric/:id **Destroy**
+* /user/metric      **Create** (new widget)
+* /user/metric/:id  **Read**
+* /user/:id         **Destroy**
+* /user/metric/:id  **Destroy**
