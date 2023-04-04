@@ -18,7 +18,7 @@ export default function Home() {
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       </Head>
   
-      <main className="flex h-screen flex-col bg-white text-body dark:bg-dark-14 dark:text-dark-body {styles.main}">
+      <div className="flex h-screen flex-col bg-white text-body dark:bg-dark-14 dark:text-dark-body {styles.main}">
         
         <div className="flex-grow overflow-auto">
           <div className="flex flex-col order-2 sm:flex-row sm:order-1 h-full">
@@ -26,7 +26,7 @@ export default function Home() {
             <Main />
           </div>
         </div>
-      </main>
+      </div>
     </>
   )
 }

@@ -3,15 +3,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Header() {
   return(
-    <header className="pb-6">
-      <h2 className="text-3xl font-bold">
+    <header className="py-6 px-3">
+      <h2 className="text-xl font-medium">
         Hello Bingo!
       </h2>
       <p>Welcome to ActiveJourney</p>
-      <nav className="flex content-center bg-blue-100 rounded-xl px-3 my-3">
+      <nav className="flex content-center bg-blue-100 rounded-xl px-3 py-2 my-3">
         <h1 className="self-center font-medium text-lg m-0">Dashboard</h1>
-        <a className="ml-auto cursor-pointer items-center rounded-xl px-4 font-medium hover:bg-blue-100 p-4 text-blue-900">
-          <div className="h-4 w-4">
+        <a className="ml-auto cursor-pointer items-center rounded-full bg-blue-800 hover:bg-blue-700 font-medium p-3 text-white">
+          <div className="h-3 w-3">
             <FontAwesomeIcon icon={faUser} />
           </div>
           <span className="sr-only">Profile</span>

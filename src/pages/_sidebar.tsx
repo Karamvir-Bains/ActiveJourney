@@ -3,9 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Sidebar() {
   return(
-    <aside className="flex-shrink-0 py-3 flex w-33">
+    <aside id="section-sidebar" className="flex-shrink-0 sm:py-3 flex w-full sm:w-auto h-auto absolute bottom-0 z-10 sm:relative sm:z-0 bg-white">
       <div className="flex h-full w-full flex-row sm:flex-col">
-        <div id="menu" className="w-full py-2 px-3 flex sm:flex-col justify-between absolute bottom-0 sm:relative">
+        <div id="menu" className="w-full py-2 px-3 flex sm:flex-col justify-between">
           <a className="focus:outline-none group flex justify-center min-h-4 w-full cursor-pointer items-center rounded-xl mx-0 sm:mb-3 font-medium bg-blue-200 hover:bg-blue-400 p-4 text-blue-900 hover:text-white-900">
             <div className="h-5 w-5">
               <FontAwesomeIcon icon={faPersonRunning} />
